@@ -1,0 +1,19 @@
+Hey everyone !!!
+
+This Php project was basically started with the idea of having website as a common platform for customers and hotel owners but then we switched it to totally enterprise prospective and we made it a ERP Project for went house renting.
+
+
+Instructions-
+
+ 1. Import Roadcnb.sql in your wamp server.
+ 2. copy paste this entire folder in www folder of your wamp folder in c drive.
+ 3. Index.php will be the first one to open and it will use auth.php to check your session set and if it's set you are logged in and you will  be directed to home.php otherwise signin.html.
+4. Go on signup then sign in and enjoy.
+
+
+Futher changes required-
+1. Presently change password is not working.
+2. Some sql error because of the change of mysql to mtsqli.
+
+
+Thank you.

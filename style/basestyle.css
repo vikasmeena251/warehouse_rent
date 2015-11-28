@@ -1,0 +1,103 @@
+/*-----------------------------+
+| Developed By: Gaurav Jain	   |
+| Date: Feb 07, 2014           |
+| Last updated :               |
++-----------------------------*/ 
+@font-face {
+    font-family: 'helvetica_ce_55_romanbold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nevis';
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sintonyregular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* common styles to reset the default*/
+html {color:#1f1f1f;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {margin:0;padding:0;}
+body {font-family:Arial ;font-size:12px;background:#fff;color:#777;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset, img {border:0;}
+del, ins {text-decoration:none;}
+li {list-style:none;}
+caption, th {text-align:left;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;}
+a {	outline:none;text-decoration:none;color:#fff;}
+
+/* layout styles*/
+h1{color:#2eb9b2;font-size:20px;}
+h2{font:normal 16px/20px Arial;}
+h3{font-size:14px;}
+h4{font-size:12px;}
+h5{text-transform:uppercase;font-size:11px;color:#999;}
+p{font-size:13px;}
+input[type="submit"]{cursor:pointer;}
+
+.rating-star-0 {width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+	background: url(../images/star-matrix.gif) no-repeat 0 0; background-position:0 0;}
+.rating-star-1 {width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+	background: url(../images/star-matrix.gif) no-repeat 0 0; background-position:0 -96px;}
+#rating-star-2 {width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+	background: url(../images/star-matrix.gif) no-repeat 0 0; background-position:0 -112px;}
+.rating-star-3 {width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+	background: url(../images/star-matrix.gif) no-repeat 0 0; background-position:0 -128px;}
+.rating-star-4 {width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+	background: url(../images/star-matrix.gif) no-repeat 0 0; background-position:0 -144px;}
+.rating-star-5 {width:80px;
+	height:16px;
+	margin:0 0 20px 0;
+	padding:0;
+	list-style:none;
+	clear:both;
+	position:relative;
+	background: url(../images/star-matrix.gif) no-repeat 0 0; background-position:0 -160px;}
+
+
+/* custom form elements styles */
+.checkbox, .radio {width:23px;height: 27px;padding: 0 5px 0 0;background: url(images/radio_checkbox.png) no-repeat;display:inline-block;float:right;}
+.select {position:absolute;width:376px;height:36px;padding:0 4px 0 8px;color:#949494;font:13px/36px "sintonyregular",sans-serif;background: url(images/selectBg.png) no-repeat;overflow:hidden;margin:0px 0px 10px 0px;}
+/* End custom form elements styles */
+
+.header{background:#eeeeee;padding:15px;}
+.city{float:center; margin:25px auto; clear:both; width:100%;}
+.cityimg{height:50%;width:100%;}
+.cityname{font:36px "sintonyregular",sans-serif;}
+.white{color:#ffffff;}
